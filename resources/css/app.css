@@ -1,0 +1,76 @@
+/* app.css */
+
+/* Custom styles for your application */
+
+/* Gradient form background */
+.gradient-form {
+    background: #333333;
+}
+
+/* Gradient background */
+.gradient-background {
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+/* Gradient custom button */
+.gradient-custom-2 {
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+/* Card border radius */
+.card {
+    border-radius: 5px;
+}
+
+/* Form input styles */
+input.form-control-md {
+    background-color: #555555;
+    color: white;
+    border: 1px solid #777777;
+}
+
+/* Form input placeholder color */
+input.form-control-md::placeholder {
+    color: #ffffff;
+}
+
+/* Form input focus styles */
+input.form-control-md:focus {
+    border-color: #333333;
+    box-shadow: none;
+}
+
+/* Outline button styles */
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+/* Outline button hover styles */
+.btn-outline-light:hover {
+    background-color: white;
+    color: #333333;
+}
+
+/* Text color utility class */
+.text-white {
+    color: white !important;
+}
+
+/* Heading and paragraph color */
+h4, p {
+    color: white;
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) {
+    .gradient-form {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .gradient-background {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
